@@ -33,10 +33,11 @@ Read [CLIENT_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/blob/main/CL
 
 
 ### Client Setup
+1. Download client binaries from Releases
 
-1. Locate your game exe's folder
+2. Locate your game exe's folder
 
-2. Copy `xinput1_3.dll` (`dsound.dll` if your game is 32-bit) and `abaas.ini` into the folder
+3. Copy `xinput1_3.dll` (`dsound.dll` if your game is 32-bit) and `abaas.ini` into the folder
 
 
 
@@ -51,24 +52,12 @@ Read [SERVER_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/blob/main/SE
 
 
 ### Server Setup
+_Server was built for Ubuntu Server 24.04 LTS and assumes that you're using the same._
+
+Download server binary from Releases  
 
 
-
-Clone and build the server
-
-```
-
-git clone https://github.com/Loomeh/abaas-slop-server
-
-cd abaas-slop-server
-
-make && ./abaas-selftest
-
-```
-
-
-
-Run (Standalone)
+2a. Run (Standalone)
 
 ```
 
@@ -78,7 +67,7 @@ sudo ./abaas-server -c abaas-server.conf public_host=<IPV4 ADDRESS>
 
 
 
-Run (systemd service)
+2b. Run (systemd service)
 
 ```
 
