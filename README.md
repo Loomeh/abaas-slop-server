@@ -26,7 +26,7 @@ Theoretically this should work with every APM3 game but these are the ones I've 
 
 ### Client Configuration
 
-Read [CLIENT_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/main/CLIENT_CONFIG.md)
+Read [CLIENT_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/blob/main/CLIENT_CONFIG.md)
 
 
 
@@ -46,7 +46,7 @@ Read [CLIENT_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/main/CLIENT_
 
 ### Server Configuration
 
-Read [SERVER_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/main/SERVER_CONFIG.md)
+Read [SERVER_CONFIG.md](https://github.com/Loomeh/abaas-slop-server/blob/main/SERVER_CONFIG.md)
 
 
 
